@@ -1,4 +1,4 @@
-# 24 Hour Weather Forecast with least squares calculation
+# 24-Hour Weather Forecast with Least Squares Calculation
 
 ![Weather Data](images/data.png "Weather Data")
 ![Weather Data With Best Fit Line](images/data_fitline.png)
@@ -36,7 +36,7 @@ I can tell from this matrix that the first two variables will impact the system 
 
 
 Let's compare these values with the rest and plot them, and future data points
-The least squares equation is which is the residual of the system. The equivalent function, with my variable names, is  and we can find the norm of the residual to find the overall error ||r||.
+The least squares equation is which is the residual of the system. The equivalent function, with my variable names, is,  and we can find the norm of the residual to find the overall error ||r||.
 
 
 The new plot of the data looks promising, but there is an issue. This formula does not generalize well to out-of-domain. The red line is the  equation.&nbsp;
